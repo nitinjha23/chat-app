@@ -7,7 +7,8 @@ import SideDrawer from "../components/miscellanous/SideDrawer";
 import Mychats from "../components/Mychats";
 import ChatBox from "../components/ChatBox";
 // axios.defaults.baseURL = 'https://backend-chatapp-f9f8.onrender.com';
-axios.defaults.baseURL = "http://localhost:5000"
+// axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://chat-app-kukz.onrender.com"
 const ChatPage = () => {
   const {user}= ChatState();
   const [fetchAgain,setFetchAgain] = useState(false);

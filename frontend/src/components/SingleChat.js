@@ -15,7 +15,8 @@ const ENDPOINT = 'https://backend-chatapp-f9f8.onrender.com';
 var socket,selectedChatCompare;
 // axios.defaults.baseURL = 'https://backend-chatapp-f9f8.onrender.com';
 // axios.defaults.baseURL = 'https://backend-chatapp-f9f8.onrender.com';
-axios.defaults.baseURL = "http://localhost:5000"
+// axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://chat-app-kukz.onrender.com"
 
 const SingleChat = ({fetchAgain,setFetchAgain}) => {
     const { user, selectedChat, setSelectedChat, notification, setNotification } = ChatState();

@@ -6,7 +6,8 @@ import UserBadgeItem from '../useravatar/UserBadgeItem'
 import axios from 'axios'
 import UserListItem from '../useravatar/UserListItem'
 // axios.defaults.baseURL = 'https://backend-chatapp-f9f8.onrender.com';
-axios.defaults.baseURL = "http://localhost:5000"
+// axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://chat-app-kukz.onrender.com"
 const UpdateGroupChatModal = ({fetchAgain,setFetchAgain , fetchMessages}) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [groupChatName,setGroupChatName] = useState();

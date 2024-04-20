@@ -7,7 +7,8 @@ import { useToast } from '@chakra-ui/react'
 import axios from 'axios'
 import { useHistory } from 'react-router-dom'
 // axios.defaults.baseURL = 'https://backend-chatapp-f9f8.onrender.com';
-axios.defaults.baseURL = "http://localhost:5000"
+// axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://chat-app-kukz.onrender.com"
 const Login = () => {
     const [show, setShow] = useState(false);
     const [email, setemail] = useState("");

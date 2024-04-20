@@ -7,7 +7,7 @@ import ChatLoading from './ChatLoading';
 import { getSender } from '../config/ChatLogics';
 import GroupChatModal from './miscellanous/GroupChatModal';
 // axios.defaults.baseURL = 'https://backend-chatapp-f9f8.onrender.com';
-axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://chat-app-kukz.onrender.com"
 
 const Mychats = ({fetchAgain}) => {
   const [loggedUser,setLoggedUser] = useState();
